@@ -4,7 +4,7 @@ import drivefest from './drivefest.png';
 import djoj from './djoj.png';
 const Clients = () => {
     return (
-        <div className="wrapper">
+        <div className="wrapper animate__animated animate__fadeInDown">
             <h2 className='clientsTitle'>CLIENTS I'VE WORKED WITH</h2>
             <Grid container spacing={2}>
                 <Grid item xs={4}>

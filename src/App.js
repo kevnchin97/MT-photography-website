@@ -4,6 +4,7 @@ import Header from './Header';
 import Home from './Home';
 import About from './About.js';
 import Clients from './Clients.js';
+import Pricing from './Pricing.js';
 
 
 function App() {

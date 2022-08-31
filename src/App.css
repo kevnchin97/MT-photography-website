@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #0f0f0f;
+  background-color: #090909;
 }
 
 article,
@@ -17,11 +17,6 @@ header,
 nav,
 section {
   display: block
-}
-
-h1 {
-  font-size: 2em;
-  margin: .67em 0
 }
 
 figcaption,
@@ -268,9 +263,14 @@ a {
 }
 
 h1 {
-  font-family: SourceCodePro;
+  font-family: -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto;
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 4rem;
+  margin: 0;
 }
 
 h2 {
@@ -287,12 +287,15 @@ li {
 }
 
 span {
-  color: #9854cb;
+
+  /* color: #F28705; */
+  color: #022026;
+
   font-weight: bold;
 }
 
 .aboutP {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 p {
@@ -316,11 +319,17 @@ p {
 /* homepage styling */
 .heroText {
   width: 100%;
-  margin-top: 40vh;
+  margin-top: 30vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
 
-
+.heroText p {
+  font-weight: normal;
+  font-size: 0.6rem;
+  margin: 0;
 }
 
 /* header styling */
@@ -336,13 +345,25 @@ header {
   display: flex;
   padding: 0;
   width: 100%;
-  gap: 200px;
+  gap: 215px;
 }
 
 /* About styles */
 .aboutMe {
   margin-top: 100px;
 }
+
+.aboutP span {
+  color: #F28705;
+}
+
+/* .aboutP {
+  font-family: -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto;
+} */
 
 /* clients styles */
 .clientsTitle {
