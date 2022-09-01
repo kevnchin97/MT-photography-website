@@ -324,6 +324,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .heroText p {
@@ -353,8 +354,9 @@ header {
   margin-top: 100px;
 }
 
-.aboutP span {
-  color: #F28705;
+.aboutP span,
+.plans span {
+  color: #dbc8ff;
 }
 
 /* .aboutP {
@@ -368,4 +370,22 @@ header {
 /* clients styles */
 .clientsTitle {
   margin-top: 100px;
+}
+
+/* plans */
+.plans {
+  margin-top: 100px;
+}
+
+.finePrint p {
+  font-size: 0.6rem;
+  line-height: 0.4rem;
+}
+
+/* footer */
+footer p {
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 0;
+  margin-left: 10;
 }
