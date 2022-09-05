@@ -17,7 +17,7 @@ const Header = () => {
                         <Link style={{ textDecoration: 'none' }} to="/clients">CLIENTS/BRANDS</Link>
                     </li>
                     <li>
-                        <Link style={{ textDecoration: 'none' }} to="/highlights">PAST HIGHLIGHTS</Link>
+                        <Link style={{ textDecoration: 'none' }} to="/highlight">PAST HIGHLIGHTS</Link>
                     </li>
                     <li>
                         <Link style={{ textDecoration: 'none' }} to="/pricing">PRICING PLANS</Link>

@@ -269,14 +269,14 @@ h1 {
     "Segoe UI",
     Roboto;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: clamp(1.5rem, 7vw, 4rem);
   margin: 0;
 }
 
 h2 {
   font-family: SourceCodePro;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 6vw, 1.6rem);
 }
 
 li {
@@ -300,7 +300,7 @@ span {
 
 p {
   font-family: SourceCodePro;
-  font-size: 0.875rem;
+  font-size: clamp(0.9rem, 3vw, 1rem);
   line-height: 1.25rem;
 }
 
@@ -311,9 +311,10 @@ p {
 }
 
 .logo {
-  width: 20%;
+  min-width: 200px;
+  max-width: 400px;
   position: relative;
-  top: 20px;
+  top: 3vh;
 }
 
 /* homepage styling */
@@ -329,7 +330,7 @@ p {
 
 .heroText p {
   font-weight: normal;
-  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 3vw, 0.9rem);
   margin: 0;
 }
 
@@ -341,11 +342,17 @@ header {
   height: 90px;
 }
 
+.navBar {
+  margin: 0;
+  width: 100vw;
+}
+
 
 .navBar ul {
   display: flex;
+  justify-content: space-evenly;
   padding: 0;
-  width: 100%;
+  /* width: 100vw; */
   gap: 215px;
 }
 
@@ -377,15 +384,18 @@ header {
   margin-top: 100px;
 }
 
+.plans p {
+  margin: 0;
+}
+
 .finePrint p {
-  font-size: 0.6rem;
-  line-height: 0.4rem;
+  font-size: clamp(0.6rem, 3vw, 0.9rem);
+  line-height: 0.8rem;
 }
 
 /* footer */
 footer p {
-  font-size: 0.6rem;
-  position: absolute;
+  font-size: clamp(0.6rem, 3vw, 0.6rem);
+  position: fixed;
   bottom: 0;
-  margin-left: 10;
 }
