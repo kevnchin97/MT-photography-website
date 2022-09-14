@@ -274,13 +274,13 @@ h1 {
 }
 
 h2 {
-  font-family: SourceCodePro;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: clamp(1rem, 6vw, 1.6rem);
 }
 
 li {
-  font-family: SourceCodePro;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   text-decoration: none;
   list-style-type: none;
@@ -299,7 +299,7 @@ span {
 }
 
 p {
-  font-family: SourceCodePro;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.9rem, 3vw, 1rem);
   line-height: 1.25rem;
 }
@@ -350,10 +350,11 @@ header {
 
 .navBar ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   padding: 0;
   /* width: 100vw; */
-  gap: 215px;
+  gap: 50px;
+  margin-right: 20px;
 }
 
 /* About styles */
@@ -366,13 +367,10 @@ header {
   color: #dbc8ff;
 }
 
-/* .aboutP {
-  font-family: -apple-system,
-    system-ui,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto;
-} */
+.aboutP {
+  line-height: 1.4rem;
+}
+
 
 /* clients styles */
 .clientsTitle {

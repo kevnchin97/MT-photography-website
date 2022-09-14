@@ -8,12 +8,14 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+  font-family: 'Montserrat', sans-serif;
 }
 
+/* 
 @font-face {
-  font-family: 'SourceCodePro';
-  src: url(./fonts/SourceCodePro/SourceCodePro-Regular.otf) format('opentype');
-  font-weight: normal;
-}
+  font-family: 'Montserrat', sans-serif;
+  /* src: url(./fonts/SourceCodePro/SourceCodePro-Regular.otf) format('opentype'); */
+/* font-weight: normal; */
+/* } */
