@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './fonts/SourceCodePro/SourceCodePro-Regular.otf';
-import './fonts/SourceCodePro/SourceCodePro-Light.otf';
+import './fonts/Plakette-Serial-Heavy-Regular.ttf';
+import './fonts/Plakette-Serial-Bold.ttf';
 
 import { BrowserRouter } from 'react-router-dom';
 

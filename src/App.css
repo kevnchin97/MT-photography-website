@@ -7,7 +7,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #090909;
+  background-color: #0f1116;
+   
 }
 
 article,
@@ -256,27 +257,28 @@ img {
 h1,
 h2,
 h3,
-p,
-li,
-a {
+li{
+  /* color: #E93134; */
+  /* color: #FE0222; */
   color: white;
 }
 
+a{
+  color:inherit;
+}
+
+
 h1 {
-  font-family: -apple-system,
-    system-ui,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto;
-  font-weight: bold;
-  font-size: clamp(1.5rem, 7vw, 4rem);
+  font-family: 'PlaketteBold';
+  font-weight: 400;
+  font-size: clamp(1.5rem, 9vw, 7rem);
   margin: 0;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: clamp(1rem, 6vw, 1.6rem);
+  font-family: 'PlaketteHeavy';
+  font-weight: 400;
+  font-size: clamp(1rem, 6vw, 2rem);
 }
 
 li {
@@ -286,13 +288,7 @@ li {
   list-style-type: none;
 }
 
-span {
 
-  /* color: #F28705; */
-  color: #022026;
-
-  font-weight: bold;
-}
 
 .aboutP {
   word-break: break-word;
@@ -302,6 +298,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.9rem, 3vw, 1rem);
   line-height: 1.25rem;
+  color:#D2E7E2;
 }
 
 .wrapper {
@@ -311,8 +308,8 @@ p {
 }
 
 .logo {
-  min-width: 200px;
-  max-width: 400px;
+  min-width: 150px;
+  max-width: 150px;
   position: relative;
   top: 3vh;
 }
