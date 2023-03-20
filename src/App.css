@@ -457,3 +457,12 @@ color: #22CF76;
 .gallery {
   margin-top:100px;
 }
+
+@media (max-width: 450px) {
+  .faqSection h2 {
+    line-height: 1em;
+  }
+  .aboutMe h2{
+    line-height: 1em;
+  }
+}

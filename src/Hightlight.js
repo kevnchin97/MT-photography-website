@@ -1,14 +1,15 @@
 // import Grid from '@mui/material/Grid';
-import { ImageList } from '@mui/material';
+import { ImageList, useMediaQuery } from '@mui/material';
 import ImageListItem from '@mui/material/ImageListItem';
 import _ from 'lodash';
 import { LazyLoadImage } from "react-lazy-load-image-component";
-const Highlight = () => {
 
+const Highlight = () => {
+    const mediaMatch = useMediaQuery('(max-width: 450px)');
     const numOfPhotos = 50;
 
     return (
-        <ImageList className='wrapper gallery animate__animated animate__fadeInDown' variant="masonry" cols={3} gap={10}>
+        <ImageList className='wrapper gallery animate__animated animate__fadeInDown' variant="masonry" cols={mediaMatch ? 1 : 3} gap={10}>
             {_.times(numOfPhotos, (i) => (
                 <ImageListItem key={i}>
                     <LazyLoadImage
