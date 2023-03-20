@@ -7,7 +7,7 @@ const FAQ = () => {
            <h2>what type of events do you cover</h2>
            <p>I specialize in EDM concerts/ nightclubs/ and festivals. I have experience working with industry leaders such as artists, promotors, and TMs. I am able to capture the essence of the event regardless of how big or small. Aside from concert coverage I do dabble with artist portraits as well.</p>
            <h2>What are your rates</h2>
-           <p>my rates depend on the type of event, duration of the shoot, and specific requirements as outlined by the client. I do offer flexible packages that can be tailored to your needs.</p>
+           <p>My rates depend on the type of event, duration of the shoot, and specific requirements as outlined by the client. I do offer flexible packages that can be tailored to your needs.</p>
            <h2>What is your turnaround time for photos/videos</h2>
            <p>I typically deliver photos within 2-3 days depending on the scope of the project and my availability. Video work such as event recaps typically take around 1-2 weeks. This is to ensure high-quality content without compromising quality. </p>
            <h2>What kind of equipment do you use</h2>
