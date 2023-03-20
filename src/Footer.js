@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <p>website coded by kevin chin using react framework.</p>
+            <p>kevin chin 2023</p>
         </footer>
     )
 }

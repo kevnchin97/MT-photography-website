@@ -1,8 +1,9 @@
 const Home = () => {
     return (
         <div className="heroText animate__animated animate__fadeInDown">
-            <h1>MIDNITE TONES</h1>
-            <h2>READY FOR ANYTHING - WELCOMING EVERYTHING </h2>
+            {/* <p>midnite tones is a professional digital content creator specializing in concert photography and event videography. </p> */}
+            <p>capturing the best of the night</p>
+            <h2>interested in working with me? Shoot me an <a href="mailto:midnite.tones@outlook.com">email!</a></h2>
         </div>
     )
 }

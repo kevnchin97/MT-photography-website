@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #0f1116;
+  background-color: #fff;
    
 }
 
@@ -260,7 +260,8 @@ h3,
 li{
   /* color: #E93134; */
   /* color: #FE0222; */
-  color: white;
+  /* color: white; */
+  color:black;
 }
 
 a{
@@ -269,16 +270,16 @@ a{
 
 
 h1 {
-  font-family: 'PlaketteBold';
+  font-family: 'Monsterrat';
   font-weight: 400;
-  font-size: clamp(1.5rem, 9vw, 7rem);
+  font-size: clamp(1.5rem, 5vw, 7rem);
   margin: 0;
 }
 
 h2 {
-  font-family: 'PlaketteHeavy';
+  font-family: 'Montserrat';
   font-weight: 400;
-  font-size: clamp(1rem, 6vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 li {
@@ -288,8 +289,6 @@ li {
   list-style-type: none;
 }
 
-
-
 .aboutP {
   word-break: break-word;
 }
@@ -298,7 +297,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.9rem, 3vw, 1rem);
   line-height: 1.25rem;
-  color:#D2E7E2;
+  color:black;
 }
 
 .wrapper {
@@ -322,13 +321,17 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .heroText p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: clamp(0.6rem, 3vw, 0.9rem);
   margin: 0;
+  /* color: #22CF76; */
+}
+
+.heroText a:hover {
+  color: #05B999;
 }
 
 /* header styling */
@@ -342,21 +345,42 @@ header {
 .navBar {
   margin: 0;
   width: 100vw;
+  display:flex;
+  justify-content: center;
 }
 
 
 .navBar ul {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0;
-  /* width: 100vw; */
-  gap: 50px;
-  margin-right: 20px;
+  margin:0;
+  margin-top:80px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin-right: 10px;
+  padding:0px;
 }
+
+.navBar li:hover {
+color: #22CF76;
+}
+
 
 /* About styles */
 .aboutMe {
   margin-top: 100px;
+}
+
+.aboutMe h2{
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2.5vw, 4rem);
+  line-height: 0.5em;
+}
+
+.aboutMe a:hover{
+  color:#22CF76;
+}
+
+.aboutMe h2:hover{
+  color: #22CF76;
 }
 
 .aboutP span,
@@ -379,13 +403,59 @@ header {
   margin-top: 100px;
 }
 
+.plans h2{
+    text-transform: uppercase;
+      font-size: clamp(1rem, 2.5vw, 4rem);
+      line-height: 0.5em;
+}
+
+.plans h2:hover{
+  color: #22CF76;
+}
+
+
 .plans p {
+  line-height: 1.4rem;
   margin: 0;
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+.icons a:hover{
+  color: #22CF76;
+}
+
+
+.finePrint{
+  margin-top:1rem;
 }
 
 .finePrint p {
   font-size: clamp(0.6rem, 3vw, 0.9rem);
-  line-height: 0.8rem;
+  line-height: 1rem;
+  
+}
+
+.faqSection{
+  margin-top:100px;
+}
+
+.faqSection h2:hover{
+  color:#22CF76;
+}
+
+.faqSection h2 {
+  font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+        font-size: clamp(1rem, 1.5vw, 4rem);
+        line-height: 0.5em;
+        font-weight: 400;
+}
+
+.gallery {
+  margin-top:100px;
 }
 
 /* footer */

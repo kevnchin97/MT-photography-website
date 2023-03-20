@@ -4,10 +4,10 @@ import ImageListItem from '@mui/material/ImageListItem';
 import _ from 'lodash';
 const Highlight = () => {
 
-    const numOfPhotos = 42;
+    const numOfPhotos = 50;
 
     return (
-        <ImageList className='wrapper animate__animated animate__fadeInDown' variant="masonry" cols={3} gap={10}>
+        <ImageList className='wrapper gallery animate__animated animate__fadeInDown' variant="masonry" cols={3} gap={10}>
             {_.times(numOfPhotos, (i) => (
                 <ImageListItem key={i}>
                     <img
