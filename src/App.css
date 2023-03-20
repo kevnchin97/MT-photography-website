@@ -460,10 +460,19 @@ color: #22CF76;
 }
 
 @media (max-width: 450px) {
+  .navBar{
+    padding-bottom:75px;
+  }
   .faqSection h2 {
     line-height: 1em;
   }
   .aboutMe h2{
     line-height: 1em;
   }
+
+    .wrapper {
+      max-width: 1920px;
+      width: 90%;
+      margin: 0 auto;
+    }
 }
