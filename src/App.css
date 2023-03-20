@@ -307,10 +307,9 @@ p {
 }
 
 .logo {
-  min-width: 150px;
-  max-width: 150px;
+  width:150px;
   position: relative;
-  top: 3vh;
+  top: 35px;
 }
 
 /* homepage styling */
@@ -322,6 +321,7 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 
 .heroText p {
   font-weight: 400;
@@ -456,11 +456,4 @@ color: #22CF76;
 
 .gallery {
   margin-top:100px;
-}
-
-/* footer */
-footer p {
-  font-size: clamp(0.6rem, 3vw, 0.6rem);
-  position: fixed;
-  bottom: 0;
 }

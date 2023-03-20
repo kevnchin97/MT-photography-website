@@ -6,7 +6,6 @@ import About from './About.js';
 import FAQ from './FAQ.js';
 import Highlight from './Hightlight';
 import Pricing from './Pricing.js';
-import Footer from './Footer';
 
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
         <Route path="/highlight" element={<Highlight />} />
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import { ImageList } from '@mui/material';
 import ImageListItem from '@mui/material/ImageListItem';
 import _ from 'lodash';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Highlight = () => {
 
     const numOfPhotos = 50;
@@ -10,9 +11,9 @@ const Highlight = () => {
         <ImageList className='wrapper gallery animate__animated animate__fadeInDown' variant="masonry" cols={3} gap={10}>
             {_.times(numOfPhotos, (i) => (
                 <ImageListItem key={i}>
-                    <img
-                        src={require(`./assets/${i + 1}.jpg?w=248&fit=crop&auto=format`)}
-                        srcSet={require(`./assets/${i + 1}.jpg?w=248&fit=crop&auto=format&dpr=2 2x`)}
+                    <LazyLoadImage
+                        src={require(`./assets/${i + 1}.webp?w=248&fit=crop&auto=format`)}
+                        srcSet={require(`./assets/${i + 1}.webp?w=248&fit=crop&auto=format&dpr=2 2x`)}
                         alt={`gallery photos ${i}`}
                         loading="lazy"
                     />
