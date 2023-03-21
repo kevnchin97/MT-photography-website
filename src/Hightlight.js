@@ -6,7 +6,7 @@ import _ from 'lodash';
 
 const Highlight = () => {
     const mediaMatch = useMediaQuery('(max-width: 450px)');
-    const numOfPhotos = 50;
+    const numOfPhotos = 54;
 
     return (
         <ImageList className='wrapper gallery animate__animated animate__fadeInDown' variant="masonry" cols={mediaMatch ? 1 : 3} gap={10}>
